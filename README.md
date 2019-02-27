@@ -6,7 +6,7 @@ vue单文件组件
 ``` vue
 <script>
 import Quill from 'quill'
-import CustomEvent from './CustomEvent.js';
+import CustomEvent from './CustomEvent';
 Quill.register('modules/customEvent', CustomEvent);
 
 export default {
